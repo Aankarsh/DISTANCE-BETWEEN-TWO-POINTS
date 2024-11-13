@@ -1,19 +1,37 @@
-# DISTANCE-BETWEEN-TWO-POINTS
+# Ex - 03
+# DATE : 21/08/24
+# DISTANCE BETWEEN TWO POINTS
 
-## AIM:
+## AIM :
 To write a python program to find the distance two 2 points
-## ALGORITHM:
-### Step 1: 
-### Step 2: 
-### Step 3: 
-Substitute the values in the distance formula  ![formula](/formula.JPG)
-### Step 4: 
-### Step 5: 
-### PROGRAM:
-  
+
+## ALGORITHM :
+### Step 1: import math as m
+### Step 2: Assign the two values
+### Step 3: Apply the distance formula in the form of function as m.sqrt()
+Substitute the values in the distance formula  ![formula](/formula.jpg)
+### Step 4: print the values
+### Step 5: End of program
+
+
+### PROGRAM :
+  ``` py
+#Program to find the distance between two points.
+# Developed by: Aankarsh J
+# Register no: 22304386
+import math as m 
+L1 = [4,2]
+L2 = [10,6]
+d =  m.sqrt((L2[0]-L1[0])**2 + (L2[1]-L1[1])**2)
+print("{:.2f}".format(d))
+
+```
 
 
 ### OUTPUT:
+![EXP - 03 ](https://github.com/user-attachments/assets/0060a8e5-9395-4903-8aba-5f0fa5888df7)
+
 
 
 ### RESULT:
+Thus the distance between two points are successfully executed.
